@@ -312,6 +312,7 @@ git commit -m "S04P22B107-56 AWS RDS, S3 서버 및 기본환경 세팅"
 > [피그마 바로가기](https://www.figma.com/file/DgYRBtDjlOecYPiEZOxTAi/Untitled?node-id=0%3A1)    
 
 
-
+### ✔ 시연영상
+>[시연영상 바로가기](https://drive.google.com/file/d/14IUhTvacFWeBHm58DxcCfhPjhyyYzGwp/view)
 
 

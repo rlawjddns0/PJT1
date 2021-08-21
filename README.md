@@ -303,7 +303,7 @@ git commit -m "S04P22B107-56 AWS RDS, S3 서버 및 기본환경 세팅"
 > 2. 와이어프레임  
 
 ### ✔ ER 다이어그램      
-
+> [ER 다이어그램] (https://github.com/rlawjddns0/PJT1/blob/master/%EC%82%B0%EC%B6%9C%EB%AC%BC/erd.png)
 
 
 ### ✔ 와이어프레임    

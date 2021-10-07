@@ -1,15 +1,15 @@
 # 🐂🐕COW & DOG
 
-![LogoBackgroundInvisible](README.assets/LogoBackgroundInvisible.png)
+![LogoBackgroundInvisible](../TIL/2학기_공통PJT/final_backup/S05P13B104/README.assets/LogoBackgroundInvisible.png)
 
 <div>
-
 <p align="center">
   <br/><b>소개팅 서비스</b>
   <p align="center">
  <img src="https://img.shields.io/badge/JavaScript-ES6+-green?logo=javascript">
  <img src="https://img.shields.io/badge/Vue.js-v3.0.0-green?logo=vue.js">
- <img src="https://img.shields.io/badge/Vuetify-v3-green?logo=Vuex">
+ <img src="https://img.shields.io/badge/Element plus-v1.1.0-green?logo=ElPlus">
+ <img src="https://img.shields.io/badge/Openvidu-v2.19.0-green?logo=openvidu">
  <img src="https://img.shields.io/badge/Java-v1.8-blue?logo=java">
  <img src="https://img.shields.io/badge/spring boot-v2.5.2-blue?logo=spring">
  <img src="https://img.shields.io/badge/AWS%20RDS----blue?logo=amazonaws">
@@ -20,12 +20,12 @@
 </p>    
 </div>
 
+
 > 서비스명: CowDog
 > 팀명: 5xy
 > 개발 기간: 2021.07.12 ~ 2021.08.20 (약 7주) 
-## 📑 배포주소
 
->[배포주소](i5b104.p.ssafy.io)
+
 
 ## 📑 문서 
 
@@ -33,44 +33,21 @@
 
 
 
-## 📑 활용 API(임시)
+## 📑 활용 API
 
-**Face Filter**
-
-jeeliz(JavaScript) https://github.com/jeeliz/jeelizFaceFilter
-
-snow web filter(JavaScript) https://github.com/doublejbs/snow-web-filter
-
-kairess(Python) https://github.com/kairess/face_detector
-
-kairess 가이드 영상 https://www.youtube.com/watch?v=tpWVyJqehG4
-
-스냅챗필터(Python) https://github.com/oflynned/Snapchat-Filter
-
-스냅챗 문서 url https://syzible.com/snapchat-filters.pdf
-
-ASCII virtual webcam(Python) https://github.com/diegovazquez/ASCIILinuxVirtualWebCam
-
-banuba(상업용?) https://www.banuba.com/facear-sdk/face-filters
-
-
-
-**Voice Filter**
-
-https://github.com/funcwj/voice-filter
-
-
+[Openvidu](https://openvidu.io/)
 
 
 
 ## 👨 팀원 역할   
-| 이름   | 역할 | 내용                        |
-| ------ | ---- | --------------------------- |
-| 김정운 | 팀장 | 백엔드, 기획 담당자 |
-| 오웅식 | 팀원 | 백엔드, 테크리더       |
-| 배현우 | 팀원 | 백엔드, QA |
+
+| 이름   | 역할 | 내용                                |
+| ------ | ---- | ----------------------------------- |
+| 김정운 | 팀장 | 백엔드, 기획 담당자                 |
+| 오웅식 | 팀원 | 백엔드, 테크리더                    |
+| 배현우 | 팀원 | 백엔드, QA                          |
 | 조웅현 | 팀원 | 프론트엔드, QA, 프론트엔드 테크리더 |
-| 유성호 | 팀원 | 프론트엔드, 기획 담당자 |
+| 유성호 | 팀원 | 프론트엔드, 기획 담당자             |
 
 
 
@@ -78,73 +55,75 @@ https://github.com/funcwj/voice-filter
 
 
 ## 📑 Gantt Chart
+
    ```mermaid
-   gantt
-   dateFormat  YYYY-MM-DD
-   title       5xy 공통 프로젝트(cowdog)
-   excludes    weekends
-   
-   section 프로젝트 기획
-   주제 선정       :done, sub1, 2021-07-12, 5d
-   Jira, Git 생성 :done, sub2, 2021-07-19, 2h
-   명세서 작성 :active, sub3, 2021-07-15, 2021-07-20
-   Jira issue 생성: active, sub4, 2021-07-20, 2d
-   
-   section 설계
-   DB 설계 : sub1, 2021-07-23, 2021-07-24
-   와이어 프레임 설계 : 2021-07-20, 2021-07-22
-   시퀀스 설계: 2021-07-20, 2021-07-22
-   
-   section 회원 관련 구현(김정운)
-   회원 가입 : sub1, 2021-07-24, 2021-07-27
-   마이페이지 : sub2, 2021-07-24, 2021-07-27
-   회원 탈퇴 :sub3, 2021-07-25, 2021-07-26
-   회원정보 수정 :sub4, 2021-07-25, 2021-07-26
-   로그인 :sub5, 2021-07-27, 2021-07-30
-   로그아웃 :sub6, 2021-07-25, 2021-07-26
-   비밀번호 찾기 :sub7, 2021-07-25, 2021-07-26
-   
-   section 게시판(조웅현)
-   게시판 글 등록:sub1, 2021-07-26, 2021-07-27
-   게시판 글 삭제:sub2, 2021-07-27, 2021-07-28
-   게시판 글 수정:sub3, 2021-07-28, 2021-07-29
-   
-   section 관리자 기능(유성호)
-   공지사항 :sub1, 2021-07-25, 2021-07-26
-   신고:sub2, 2021-07-25, 2021-07-27
-   
-   section 게임(유성호)
-   A or B 게임 :sub1, 2021-08-01, 2021-08-05
-   캐치마인드 :sub2, 2021-08-05, 2021-08-17
-   
-   section webRTC(오웅식, 배현우)
-   사전 공부 및 예제 실습 : sub1, 2021-07-24, 2021-07-25
-   RTC 통신 구조 설계 :sub2, 2021-07-26, 2021-07-27
-   RTC 1:1 통신 구현 : sub3, 2021-07-28, 2021-07-30
-   얼굴 필터링 기능 :sub4, 2021-08-17, 2021-08-18
-   목소리 변조 기능 :sub5, 2021-08-17, 2021-08-18
-   
-   section 채팅(오웅식, 배현우, 김정운)
-   채팅기능 :sub1, 2021-08-01, 2021-08-05
-   
-   section 부가기능(오,배,김)
-   좋아요 팔로우 :sub1, 2021-08-06, 2021-08-08
-   알림 기능 :sub2, 2021-08-09, 2021-08-12
-   DM :sub3, 2021-08-13, 2021-08-16
-   
-   section 매칭(조웅현, 오웅식)
-   오늘의 추천:sub1, 2021-07-31, 2021-08-20
-   지역 추천:sub2, 2021-07-31, 2021-08-10
-   맞춤 추천:sub3, 2021-08-11, 2021-08-15
-   
-   section UCC
-   UCC 제작: sub1, 2021-08-19, 2021-08-20
+gantt
+dateFormat  YYYY-MM-DD
+title       5xy 공통 프로젝트(cowdog)
+excludes    weekends
+
+section 프로젝트 기획
+주제 선정       :done, sub1, 2021-07-12, 5d
+Jira, Git 생성 :done, sub2, 2021-07-19, 2h
+명세서 작성 :active, sub3, 2021-07-15, 2021-07-20
+Jira issue 생성: active, sub4, 2021-07-20, 2d
+
+section 설계
+DB 설계 : sub1, 2021-07-23, 2021-07-24
+와이어 프레임 설계 : 2021-07-20, 2021-07-22
+시퀀스 설계: 2021-07-20, 2021-07-22
+
+section 회원 관련 구현(김정운)
+회원 가입 : sub1, 2021-07-24, 2021-07-27
+마이페이지 : sub2, 2021-07-24, 2021-07-27
+회원 탈퇴 :sub3, 2021-07-25, 2021-07-26
+회원정보 수정 :sub4, 2021-07-25, 2021-07-26
+로그인 :sub5, 2021-07-27, 2021-07-30
+로그아웃 :sub6, 2021-07-25, 2021-07-26
+비밀번호 찾기 :sub7, 2021-07-25, 2021-07-26
+
+section 게시판(조웅현)
+게시판 글 등록:sub1, 2021-07-26, 2021-07-27
+게시판 글 삭제:sub2, 2021-07-27, 2021-07-28
+게시판 글 수정:sub3, 2021-07-28, 2021-07-29
+
+section 관리자 기능(유성호)
+공지사항 :sub1, 2021-07-25, 2021-07-26
+신고:sub2, 2021-07-25, 2021-07-27
+
+section 게임(유성호)
+A or B 게임 :sub1, 2021-08-01, 2021-08-05
+캐치마인드 :sub2, 2021-08-05, 2021-08-17
+
+section webRTC(오웅식, 배현우)
+사전 공부 및 예제 실습 : sub1, 2021-07-24, 2021-07-25
+RTC 통신 구조 설계 :sub2, 2021-07-26, 2021-07-27
+RTC 1:1 통신 구현 : sub3, 2021-07-28, 2021-07-30
+얼굴 필터링 기능 :sub4, 2021-08-17, 2021-08-18
+목소리 변조 기능 :sub5, 2021-08-17, 2021-08-18
+
+section 채팅(오웅식, 배현우, 김정운)
+채팅기능 :sub1, 2021-08-01, 2021-08-05
+
+section 부가기능(오,배,김)
+좋아요 팔로우 :sub1, 2021-08-06, 2021-08-08
+알림 기능 :sub2, 2021-08-09, 2021-08-12
+DM :sub3, 2021-08-13, 2021-08-16
+
+section 매칭(조웅현, 오웅식)
+오늘의 추천:sub1, 2021-07-31, 2021-08-20
+지역 추천:sub2, 2021-07-31, 2021-08-10
+맞춤 추천:sub3, 2021-08-11, 2021-08-15
+
+section UCC
+UCC 제작: sub1, 2021-08-19, 2021-08-20
    ```
 
 
 
 
 ## 📑 서비스 개요      
+
   현대인은 '새로운 만남'에 대해 상당수가 긍정적인 시각을 가지고 있다. 코로나 이전 시기에도 다양한 소모임, 소셜데이팅 앱이 출시되면서 새로운 만남을 가지는 방법이 달라지고 있었고, 국내외 다양한 앱(틴더, 글램, 위피 등)들이 입지를 높여가고 있었다. 2019년 [트렌드모니터의 조사 결과](https://www.trendmonitor.co.kr/tmweb/trend/allTrend/detail.do?bIdx=1756&code=0401&trendType=CKOREA)에 따르면 조사 대상자의 과반 이상이 향후 사교 어플 이용 의향을 가지고 있다고 응답하였고, 핵심 이유는 순서대로 다음과 같았다.
 
 - 반복적이고 일상적인 영역에서 벗어나 새로운 사람을 만날 수 있어서
@@ -184,6 +163,7 @@ https://github.com/funcwj/voice-filter
 [[중앙일보] 사용자 55% 늘었다, 데이팅앱이 코로나 학번들 연애 놀이터](https://news.joins.com/article/24010214)
 
 ## 📑 주요 기능     
+
 - 거리별 매칭, 맞춤 매칭, 랜덤 매칭 기능
   - 거리별 매칭 - 2km ,4km, 6km, 8km, 10km 반경 이내의 이성을 확인할 수 있음
   - 맞춤 매칭 - 취미, 주량, MBTI, 종교 등 회원가입시 등록한 다양한 조건 중 본인이 원하는 조건에 맞는 이성을 매칭
@@ -207,13 +187,13 @@ https://github.com/funcwj/voice-filter
 
 
 ## 📑 실행방법 
+
 ### ✔ 포트번호    
 
 ```
 프론트 : 3000 -> 8000
 백 : 8080
 DB : 3306
-Jenkins : 9090
 ```
 
 
@@ -221,7 +201,63 @@ Jenkins : 9090
 
 ### ✔ 실행순서
 
-미정
+- FireFox 브라우저 사용
+
+- 서버 로컬에서 nginx 설치 후 nginx.conf 파일 다음과 같이 수정
+
+  ```nginx
+  server{
+      listen 80 default_server;
+      listen [::]:80 default_server;
+      server_name i5b104.p.ssafy.io;
+      return 301 https://$server_name$request_uri;
+      index index.html index.html;
+  }
+  server {
+      listen 443 ssl;
+      listen [::]:443 ssl;
+      server_name i5b104.9.ssafy.io;
+      ssl_certificate /etc/letsencrypt/live/i5b104.9.ssafy.io/fullchain.pem;
+      ssl_certificate_key /etc/letsencrypt/live/i5b104.p.ssafy.io/privkey.pem;
+      
+      root /var/www/html/dist;
+      index index.html;
+      
+      location / {
+          try_files $uri $uri/ /index.html;
+      }
+      location /cowdog{
+          proxy__pass <http://localhost:8080/cowdog/;>
+          proxy_redirect off;
+          charset utf-8;
+          
+          proxy_set_header X-Real-IP $remote_addr;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header X-Forwarded-Proto $scheme;
+          proxy_set_header X-NginX-Proxy true;
+      }
+  }
+  ```
+
+- WAS: nginx 80번 포트, 443 사용
+
+- OPENVIDU: openvidu 내 .env 파일 HTTPS:9090, http:8083, selfsigned 사용
+
+
+
+**배포 방법**
+
+- cowdog_fe 내에서 npm run build
+- 빌드 후 생기는 dist 폴더를 aws 서버 내 /var/www/html 로 이동
+- 이동 후 sudo service nginx start
+- cowdog_be 내 pom.xml이 있는 경로에서 mvn package
+- target 폴더가 생성되면 해당 폴더로 이동하여 sudo java -jar ...snapshot-name...
+
+
+
+**특이사항**
+
+- dist 폴더 내에 index.html <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 입력
 
 
 
@@ -236,6 +272,7 @@ Jenkins : 9090
 
 
 ### ✔ Branch 규칙  
+
 ```bash
 develop - feature/기능명/fe or be       
 ```
@@ -243,39 +280,44 @@ develop - feature/기능명/fe or be
 
 
 ### ✔ Code Style
-| FrontEnd   | BackEnd |
-| ------ | ---- |
+
+| FrontEnd                                                     | BackEnd                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1. 폴더명: 첫글자 대문자→ ex) Feed/Add.vue<br />2. 파일명: 첫글자 대문자  → ex) Add.vue <br/>3. 경로명: 소문자 → ex) /add | 1. 클래스명:  첫글자 대문자 + camel case <br/> ex) MainController.java <br/><br/> 2. 함수, 변수: 첫글자 소문자 + camel case <br/> ex) public void setUserName(); |
-|- ☑ 프론트엔드 규칙||
+| - ☑ 프론트엔드 규칙                                          |                                                              |
+
     - 플러그인 : Element Plus 사용
     - 공통파일 수정 시 팀채널에 공유하기 
 
 
 - ☑ 백엔드 명명규칙 
-    - [참고](https://velog.io/@aidenshin/Java-%EC%9E%90%EB%B0%94-%EC%BD%94%EB%94%A9-%EA%B7%9C%EC%B9%99-Java-Code-Conventions#%EB%AA%85%EB%AA%85naming-%EA%B7%9C%EC%B9%99)  
+  - [참고](https://velog.io/@aidenshin/Java-%EC%9E%90%EB%B0%94-%EC%BD%94%EB%94%A9-%EA%B7%9C%EC%B9%99-Java-Code-Conventions#%EB%AA%85%EB%AA%85naming-%EA%B7%9C%EC%B9%99)  
 
 
 
 - if문
-    - 한줄 일 때, Block 처리하기
-    - else if / else /중괄호는 조건문 바로 옆에 붙이기
 
-    ```java
-    if(condition){
-     statement;
-    } else if(condition2){
-     statement2;
-    } else{
-     statement3;
-    }
-    ```
+  - 한줄 일 때, Block 처리하기
+  - else if / else /중괄호는 조건문 바로 옆에 붙이기
+
+  ```java
+  if(condition){
+   statement;
+  } else if(condition2){
+   statement2;
+  } else{
+   statement3;
+  }
+  ```
 
 - for
-  
-    - 단순 반복문은 iterator를 i,j,k,...,z순으로 명명하기
+
+  - 단순 반복문은 iterator를 i,j,k,...,z순으로 명명하기
+
 - 주석 상대방이 이해할 수 있도록 달기
-    - /**/ 설명 여러줄 필요할 때 코드 위에 작성
-    - // 간단한 주석 코드 옆에 작성
+
+  - /**/ 설명 여러줄 필요할 때 코드 위에 작성
+  - // 간단한 주석 코드 옆에 작성
 
 
 
@@ -301,15 +343,22 @@ git commit -m "S04P22B107-56 AWS RDS, S3 서버 및 기본환경 세팅"
 
 ## 📑산출물  
 
->[산출물 바로가기](https://github.com/rlawjddns0/PJT1/tree/master/%EC%82%B0%EC%B6%9C%EB%AC%BC)
+> 1. ER 다이어그램     
+> 2. 와이어프레임  
+
+### ✔ ER 다이어그램      
+
+![erd](./README.assets/erd.png)
 
 
 
 ### ✔ 와이어프레임    
+
 > [피그마 바로가기](https://www.figma.com/file/DgYRBtDjlOecYPiEZOxTAi/Untitled?node-id=0%3A1)    
 
 
-### ✔ 시연영상
->[시연영상 바로가기](https://drive.google.com/file/d/14IUhTvacFWeBHm58DxcCfhPjhyyYzGwp/view)
 
+### ✔ 화면 정의서
+
+> 산출물 폴더 내에 저장
 
